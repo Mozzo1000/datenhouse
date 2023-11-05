@@ -12,7 +12,7 @@ function NavigationMenu() {
     return (
         <Navbar className="border-b border-gray-200">
             <Navbar.Brand>
-                <span className="self-center whitespace-nowrap text-xl font-semibold">
+                <span className="self-center whitespace-nowrap text-xl font-semibold uppercase">
                     Datenhouse
                 </span>
             </Navbar.Brand>
@@ -21,6 +21,9 @@ function NavigationMenu() {
             <Navbar.Collapse>
                 <Navbar.Link active={location.pathname == "/"}>
                     <Link to="/">Home</Link>
+                </Navbar.Link>
+                <Navbar.Link active={location.pathname == "/datasets"}>
+                    <Link to="/datasets">Datasets</Link>
                 </Navbar.Link>
             </Navbar.Collapse>
         </Navbar>

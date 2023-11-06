@@ -1,10 +1,12 @@
 [
     {
         "id": 1,
-        "name": "Youtube channels"
+        "name": "Youtube channels",
+        "size": "10 MB"
     },
     {
         "id": 2,
-        "name": "Environmental data"
+        "name": "Environmental data",
+        "size": "10 MB"
     }
 ]
